@@ -112,7 +112,7 @@ const CourseInfo = {
 
 function getLearnerData(courseInfo, groupAssignments, submissions) {
 
-    const { CourseInfo, AssignmentGroup, LearnerSubmissions } = require('./data');
+    const { CourseInfo, AssignmentGroup, LearnerSubmissions }
 
 //function getLearnerData(courseInfo, assignmentGroup, learnerSubmissions) {
   try { }
