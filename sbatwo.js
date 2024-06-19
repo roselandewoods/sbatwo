@@ -109,22 +109,8 @@
 
   ////////////// Start ///////////
 
+//function getLearnerData(courseInfo, groupAssignments, submissions) 
 
-function getLearnerData(courseInfo, groupAssignments, submissions) 
+   // const { CourseInfo, AssignmentGroup, LearnerSubmissions }
 
-{ 
-
-
-}
-
-
-//   //how do I put three objects in an array 
-//   how to create objects 
-
-//   creating arrays with the information in the objects
-
-// call the variable 
-// pull the information from the variable 
-// get the learner id from learner submission 
-
-// learner is being passed as a 
+//
