@@ -1,20 +1,20 @@
-// The provided course information.
-//  A courseInfo Object
-const CourseInfo = {
-    id: 451,
-    name: "Introduction to JavaScript"
-  };
+// // The provided course information.
+// //  A courseInfo Object
+// const CourseInfo = {
+//     id: 451,
+//     name: "Introduction to JavaScript"
+//   };
   
-  // The provided assignment group.
- //An AssignmnetGroup Object
+//   // The provided assignment group.
+//  //An AssignmnetGroup Object
 
 
-  const AssignmentGroup = {
+   const AssignmentGroup = {
     id: 12345,
     name: "Fundamentals of JavaScript",
     course_id: 451,
-    group_weight: 25,
-    assignments: [
+     group_weight: 25,
+     assignments: [
       {
         id: 1,
         name: "Declare a Variable",
@@ -33,11 +33,11 @@ const CourseInfo = {
         due_at: "3156-11-15",
         points_possible: 500
       }
-    ]
-  };
+    ]}
+//   };
   
-  // The provided learner submission data.
-  const LearnerSubmissions = [
+//  
+    const LearnerSubmissions = [
     {
       learner_id: 125,
       assignment_id: 1,
@@ -80,29 +80,29 @@ const CourseInfo = {
     }
   ];
   
-  function getLearnerData(course, ag, submissions) {
-    // here, we would process this data to achieve the desired result.
-    const result = [
-      {
-        id: 125,
-        avg: 0.985, // (47 + 150) / (50 + 150)
-        1: 0.94, // 47 / 50
-        2: 1.0 // 150 / 150
-      },
-      {
-        id: 132,
-        avg: 0.82, // (39 + 125) / (50 + 150)
-        1: 0.78, // 39 / 50
-        2: 0.833 // late: (140 - 15) / 150
-      }
-    ];
+//   //function getLearnerData(course, ag, submissions) {
+//     // here, we would process this data to achieve the desired result.
+//     const result = [
+//       {
+//         id: 125,
+//         avg: 0.985, // (47 + 150) / (50 + 150)
+//         1: 0.94, // 47 / 50
+//         2: 1.0 // 150 / 150
+//       },
+//       {
+//         id: 132,
+//         avg: 0.82, // (39 + 125) / (50 + 150)
+//         1: 0.78, // 39 / 50
+//         2: 0.833 // late: (140 - 15) / 150
+//       }
+//     ];
   
-    return result;
-  }
+//     return result;
+//   }
   
-  const result = getLearnerData(CourseInfo, AssignmentGroup, LearnerSubmissions);
+ // const result = getLearnerData(CourseInfo, AssignmentGroup, LearnerSubmissions);
   
-  console.log(result);
+  //console.log(result);
   
 
 
@@ -110,9 +110,21 @@ const CourseInfo = {
   ////////////// Start ///////////
 
 
-function getLearnerData(courseInfo, groupAssignments, submissions) {
+function getLearnerData(courseInfo, groupAssignments, submissions) 
 
-    const { CourseInfo, AssignmentGroup, LearnerSubmissions } = require('./data');
+{ 
 
-//function getLearnerData(courseInfo, assignmentGroup, learnerSubmissions) {
-  try { }
+
+}
+
+
+//   //how do I put three objects in an array 
+//   how to create objects 
+
+//   creating arrays with the information in the objects
+
+// call the variable 
+// pull the information from the variable 
+// get the learner id from learner submission 
+
+// learner is being passed as a 
